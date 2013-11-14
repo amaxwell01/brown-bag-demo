@@ -1,0 +1,439 @@
+@font-face {
+	font-family: 'jobvite-icons';
+	src:url('fonts/jobvite-icons.eot');
+	src:url('fonts/jobvite-icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/jobvite-icons.woff') format('woff'),
+		url('fonts/jobvite-icons.ttf') format('truetype'),
+		url('fonts/jobvite-icons.svg#jobvite-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'jobvite-icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-webcam, .icon-warning, .icon-volume, .icon-video-help, .icon-upload-top, .icon-upload-bottom, .icon-unlock, .icon-twitter-onecolor, .icon-twitter-full-square, .icon-thumbs-up, .icon-thumbs-down, .icon-text-view, .icon-tasks, .icon-talentwise-full-square, .icon-tag, .icon-stop, .icon-step-forward, .icon-step-back, .icon-src-web-search, .icon-src-web-page, .icon-src-twitter, .icon-src-social-network, .icon-src-referral, .icon-src-notification, .icon-src-linkedin, .icon-src-job-board, .icon-src-internal, .icon-src-import, .icon-src-facebook, .icon-src-employee-role, .icon-src-email, .icon-src-custom, .icon-src-career-site, .icon-snippet-view, .icon-skip, .icon-skip-circle, .icon-share, .icon-share-contact, .icon-settings, .icon-search, .icon-save-copy, .icon-right-arrow2, .icon-rewind, .icon-retake, .icon-request, .icon-refresh3, .icon-refresh2, .icon-refresh, .icon-refer-a-friend, .icon-record, .icon-quick-view, .icon-profile, .icon-profile-circle, .icon-print, .icon-pop-out, .icon-pop-in, .icon-play, .icon-play-circle, .icon-pin, .icon-pause, .icon-panel-arrow, .icon-oneco-logo, .icon-note, .icon-move, .icon-movable, .icon-mobile-phone, .icon-mobile-next, .icon-mobile-expand, .icon-mobile-collapse, .icon-mirror, .icon-minimize, .icon-microphone, .icon-message, .icon-menu-flyout, .icon-maximize, .icon-logout, .icon-lock, .icon-list-view, .icon-linkedin-onecolor, .icon-linkedin-full-square, .icon-link, .icon-left-arrow2, .icon-left-arrow-circle2, .icon-jobvite-logo, .icon-insert, .icon-import-people, .icon-hireright-full-square, .icon-help, .icon-half-star, .icon-grid-view, .icon-graph-point, .icon-graph-line, .icon-graph-bar, .icon-globe, .icon-full-star, .icon-find-duplicates, .icon-fast-forward, .icon-facebook-onecolor, .icon-expand, .icon-exclamation, .icon-empty-star, .icon-edit, .icon-download, .icon-down-triangle, .icon-document, .icon-delete, .icon-contacts, .icon-contact, .icon-collapse, .icon-close, .icon-close-circle, .icon-clone, .icon-check, .icon-chat, .icon-calendar, .icon-attachment, .icon-arrow3, .icon-arrow, .icon-arrow-up, .icon-arrow-down, .icon-arrow-circle, .icon-announcement, .icon-add, .icon-add-task, .icon-add-tag, .icon-add-requisition, .icon-add-note, .icon-add-message, .icon-add-link, .icon-add-folder, .icon-add-document, .icon-add-contact, .icon-add-candidate {
+	font-family: 'jobvite-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-webcam:before {
+	content: "\e000";
+}
+.icon-warning:before {
+	content: "\e001";
+}
+.icon-volume:before {
+	content: "\e002";
+}
+.icon-video-help:before {
+	content: "\e003";
+}
+.icon-upload-top:before {
+	content: "\e004";
+}
+.icon-upload-bottom:before {
+	content: "\e005";
+}
+.icon-unlock:before {
+	content: "\e006";
+}
+.icon-twitter-onecolor:before {
+	content: "\e007";
+}
+.icon-twitter-full-square:before {
+	content: "\e008";
+}
+.icon-thumbs-up:before {
+	content: "\e009";
+}
+.icon-thumbs-down:before {
+	content: "\e00a";
+}
+.icon-text-view:before {
+	content: "\e00b";
+}
+.icon-tasks:before {
+	content: "\e00c";
+}
+.icon-talentwise-full-square:before {
+	content: "\e00d";
+}
+.icon-tag:before {
+	content: "\e00e";
+}
+.icon-stop:before {
+	content: "\e00f";
+}
+.icon-step-forward:before {
+	content: "\e010";
+}
+.icon-step-back:before {
+	content: "\e011";
+}
+.icon-src-web-search:before {
+	content: "\e012";
+}
+.icon-src-web-page:before {
+	content: "\e013";
+}
+.icon-src-twitter:before {
+	content: "\e014";
+}
+.icon-src-social-network:before {
+	content: "\e015";
+}
+.icon-src-referral:before {
+	content: "\e016";
+}
+.icon-src-notification:before {
+	content: "\e017";
+}
+.icon-src-linkedin:before {
+	content: "\e018";
+}
+.icon-src-job-board:before {
+	content: "\e019";
+}
+.icon-src-internal:before {
+	content: "\e01a";
+}
+.icon-src-import:before {
+	content: "\e01b";
+}
+.icon-src-facebook:before {
+	content: "\e01c";
+}
+.icon-src-employee-role:before {
+	content: "\e01d";
+}
+.icon-src-email:before {
+	content: "\e01e";
+}
+.icon-src-custom:before {
+	content: "\e01f";
+}
+.icon-src-career-site:before {
+	content: "\e020";
+}
+.icon-snippet-view:before {
+	content: "\e021";
+}
+.icon-skip:before {
+	content: "\e022";
+}
+.icon-skip-circle:before {
+	content: "\e023";
+}
+.icon-share:before {
+	content: "\e024";
+}
+.icon-share-contact:before {
+	content: "\e025";
+}
+.icon-settings:before {
+	content: "\e026";
+}
+.icon-search:before {
+	content: "\e027";
+}
+.icon-save-copy:before {
+	content: "\e028";
+}
+.icon-right-arrow2:before {
+	content: "\e029";
+}
+.icon-rewind:before {
+	content: "\e02a";
+}
+.icon-retake:before {
+	content: "\e02b";
+}
+.icon-request:before {
+	content: "\e02c";
+}
+.icon-refresh3:before {
+	content: "\e02d";
+}
+.icon-refresh2:before {
+	content: "\e02e";
+}
+.icon-refresh:before {
+	content: "\e02f";
+}
+.icon-refer-a-friend:before {
+	content: "\e030";
+}
+.icon-record:before {
+	content: "\e031";
+}
+.icon-quick-view:before {
+	content: "\e032";
+}
+.icon-profile:before {
+	content: "\e033";
+}
+.icon-profile-circle:before {
+	content: "\e034";
+}
+.icon-print:before {
+	content: "\e035";
+}
+.icon-pop-out:before {
+	content: "\e036";
+}
+.icon-pop-in:before {
+	content: "\e037";
+}
+.icon-play:before {
+	content: "\e038";
+}
+.icon-play-circle:before {
+	content: "\e039";
+}
+.icon-pin:before {
+	content: "\e03a";
+}
+.icon-pause:before {
+	content: "\e03b";
+}
+.icon-panel-arrow:before {
+	content: "\e03c";
+}
+.icon-oneco-logo:before {
+	content: "\e03d";
+}
+.icon-note:before {
+	content: "\e03e";
+}
+.icon-move:before {
+	content: "\e03f";
+}
+.icon-movable:before {
+	content: "\e040";
+}
+.icon-mobile-phone:before {
+	content: "\e041";
+}
+.icon-mobile-next:before {
+	content: "\e042";
+}
+.icon-mobile-expand:before {
+	content: "\e043";
+}
+.icon-mobile-collapse:before {
+	content: "\e044";
+}
+.icon-mirror:before {
+	content: "\e045";
+}
+.icon-minimize:before {
+	content: "\e046";
+}
+.icon-microphone:before {
+	content: "\e047";
+}
+.icon-message:before {
+	content: "\e048";
+}
+.icon-menu-flyout:before {
+	content: "\e049";
+}
+.icon-maximize:before {
+	content: "\e04a";
+}
+.icon-logout:before {
+	content: "\e04b";
+}
+.icon-lock:before {
+	content: "\e04c";
+}
+.icon-list-view:before {
+	content: "\e04d";
+}
+.icon-linkedin-onecolor:before {
+	content: "\e04e";
+}
+.icon-linkedin-full-square:before {
+	content: "\e04f";
+}
+.icon-link:before {
+	content: "\e050";
+}
+.icon-left-arrow2:before {
+	content: "\e051";
+}
+.icon-left-arrow-circle2:before {
+	content: "\e052";
+}
+.icon-jobvite-logo:before {
+	content: "\e053";
+}
+.icon-insert:before {
+	content: "\e054";
+}
+.icon-import-people:before {
+	content: "\e055";
+}
+.icon-hireright-full-square:before {
+	content: "\e056";
+}
+.icon-help:before {
+	content: "\e057";
+}
+.icon-half-star:before {
+	content: "\e058";
+}
+.icon-grid-view:before {
+	content: "\e059";
+}
+.icon-graph-point:before {
+	content: "\e05a";
+}
+.icon-graph-line:before {
+	content: "\e05b";
+}
+.icon-graph-bar:before {
+	content: "\e05c";
+}
+.icon-globe:before {
+	content: "\e05d";
+}
+.icon-full-star:before {
+	content: "\e05e";
+}
+.icon-find-duplicates:before {
+	content: "\e05f";
+}
+.icon-fast-forward:before {
+	content: "\e060";
+}
+.icon-facebook-onecolor:before {
+	content: "\e061";
+}
+.icon-expand:before {
+	content: "\e062";
+}
+.icon-exclamation:before {
+	content: "\e063";
+}
+.icon-empty-star:before {
+	content: "\e064";
+}
+.icon-edit:before {
+	content: "\e065";
+}
+.icon-download:before {
+	content: "\e066";
+}
+.icon-down-triangle:before {
+	content: "\e067";
+}
+.icon-document:before {
+	content: "\e068";
+}
+.icon-delete:before {
+	content: "\e069";
+}
+.icon-contacts:before {
+	content: "\e06a";
+}
+.icon-contact:before {
+	content: "\e06b";
+}
+.icon-collapse:before {
+	content: "\e06c";
+}
+.icon-close:before {
+	content: "\e06d";
+}
+.icon-close-circle:before {
+	content: "\e06e";
+}
+.icon-clone:before {
+	content: "\e06f";
+}
+.icon-check:before {
+	content: "\e070";
+}
+.icon-chat:before {
+	content: "\e071";
+}
+.icon-calendar:before {
+	content: "\e072";
+}
+.icon-attachment:before {
+	content: "\e073";
+}
+.icon-arrow3:before {
+	content: "\e074";
+}
+.icon-arrow:before {
+	content: "\e075";
+}
+.icon-arrow-up:before {
+	content: "\e076";
+}
+.icon-arrow-down:before {
+	content: "\e077";
+}
+.icon-arrow-circle:before {
+	content: "\e078";
+}
+.icon-announcement:before {
+	content: "\e079";
+}
+.icon-add:before {
+	content: "\e07a";
+}
+.icon-add-task:before {
+	content: "\e07b";
+}
+.icon-add-tag:before {
+	content: "\e07c";
+}
+.icon-add-requisition:before {
+	content: "\e07d";
+}
+.icon-add-note:before {
+	content: "\e07e";
+}
+.icon-add-message:before {
+	content: "\e07f";
+}
+.icon-add-link:before {
+	content: "\e080";
+}
+.icon-add-folder:before {
+	content: "\e081";
+}
+.icon-add-document:before {
+	content: "\e082";
+}
+.icon-add-contact:before {
+	content: "\e083";
+}
+.icon-add-candidate:before {
+	content: "\e084";
+}

@@ -1,0 +1,263 @@
+// Primary
+
+
+// Secondary
+
+
+// Tertiary
+
+$green: #30b545;
+$darkGreen: #20792E;
+$purple: #7354bd;
+$blue: #3d87cf;
+$lightBlue: #A3C6E8;
+$extraLightBlue: #F5F9FD;
+$lighterBlue: #dde9f7;
+$notQuiteAsLightBlue: #dce8f6;
+$blueBorderColor: #8bb3e1;
+$notQuiteAsExtraLightBlue: darken($extraLightBlue, 2%);
+$darkBlue: darken($blue, 20%);
+$orange: #f57d21;
+$magenta: #f01978;
+$red: #e51414;
+$white: #ffffff;
+$darkGray: #595959;
+$gray: #333333;
+$black: #000000;
+$body: $gray;
+$lightBody: lighten($body, 46%);
+$label: lighten($gray, 30%);
+$border: lighten($gray, 60%);
+$lightgray: lighten($gray, 70%);
+$notQuiteAsLightGray: lighten($gray, 46%);
+$gridActionColor: #f1f1f1;
+$filterShadowColor: #cccccc;
+$mediumGray: #999999;
+
+.green {
+    color: $green;
+}
+
+.green-bg {
+    background-color: $green;
+}
+
+.green-before:before {
+    color: $green;
+}
+
+.darkGreen {
+    color: $darkGreen;
+}
+
+.darkGreen-before:before {
+    color: $darkGreen;
+}
+
+.purple {
+    color: $purple;
+}
+
+.purple-before:before {
+    color: $purple;
+}
+
+.blue {
+    color: $blue;
+}
+
+.blue-bg {
+    background-color: $blue;
+}
+
+.blue-before:before {
+    color: $blue;
+}
+
+.lightBlue {
+    color: $lightBlue;
+}
+
+.lightBlue-before:before {
+    color: $lightBlue;
+}
+
+.extraLightBlue {
+    color: $extraLightBlue;
+}
+
+.extraLightBlue-before:before {
+    color: $extraLightBlue;
+}
+
+.lighterBlue {
+    color: $lighterBlue;
+}
+
+.lighterBlue-before:before {
+    color: $lighterBlue;
+}
+
+.notQuiteAsLightBlue {
+    color: $notQuiteAsLightBlue;
+}
+
+.notQuiteAsLightBlue-before:before {
+    color: $notQuiteAsLightBlue;
+}
+
+.blueBorderColor {
+    color: $blueBorderColor;
+}
+
+.blueBorderColor-before:before {
+    color: $blueBorderColor;
+}
+
+.notQuiteAsExtraLightBlue {
+    color: $notQuiteAsExtraLightBlue;
+}
+
+.notQuiteAsExtraLightBlue-before:before {
+    color: $notQuiteAsExtraLightBlue;
+}
+
+.darkBlue {
+    color: $darkBlue;
+}
+
+.darkBlue-before:before {
+    color: $darkBlue;
+}
+
+.orange {
+    color: $orange;
+}
+
+.orange-before:before {
+    color: $orange;
+}
+
+.magenta {
+    color: $magenta;
+}
+
+.magenta-before:before {
+    color: $magenta;
+}
+
+.red {
+    color: $red;
+}
+
+.red-before:before {
+    color: $red;
+}
+
+.white {
+    color: $white;
+}
+
+.white-bg {
+    background: $white;
+}
+
+.white-before:before {
+    color: $white;
+}
+
+.lightgray {
+    color: $lightgray;
+}
+
+.lightgray-before:before {
+    color: $lightgray;
+}
+
+.notQuiteAsLightGray {
+    color: $notQuiteAsLightGray;
+}
+
+.notQuiteAsLightGray-before:before {
+    color: $notQuiteAsLightGray;
+}
+
+.gray {
+    color: $gray;
+}
+
+.gray-before:before {
+    color: $gray;
+}
+
+.mediumGray {
+    color: $mediumGray;
+}
+
+.mediumGray-before:before {
+    color: $mediumGray;
+}
+
+.darkGray {
+    color: $darkGray;
+}
+
+.darkGray-before:before {
+    color: $darkGray;
+}
+
+.black {
+    color: $black;
+}
+
+.black-before:before {
+    color: $black;
+}
+
+.body {
+    color: $body;
+}
+
+.body-before:before {
+    color: $body;
+}
+
+.lightBody {
+    color: $lightBody;
+}
+
+.lightBody-before:before {
+    color: $lightBody;
+}
+
+.label {
+    color: $label;
+}
+
+.label-before:before {
+    color: $label;
+}
+
+.border {
+    color: $border;
+}
+
+.border-before:before {
+    color: $border;
+}
+
+.gridActionColor {
+    color: $gridActionColor;
+}
+
+.gridActionColor-before:before {
+    color: $gridActionColor;
+}
+
+.filterShadowColor {
+    color: $filterShadowColor;
+}
+
+.filterShadowColor-before:before {
+    color: $filterShadowColor;
+}

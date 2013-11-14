@@ -1,0 +1,113 @@
+button,
+.button,
+.button-mini
+{
+    background-color: $gray;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    // color: $text;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    // font-family: $roman;
+    line-height: 1.5;
+    padding: 12px 13px;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    white-space: nowrap;
+
+    &:hover {
+        // @include gradient(darken($color, $offset));
+        // @include box-shadow(0px 1px 0px 0px darken($shadow, 10%));
+        // color: $text;
+    }
+
+    &:active {
+        // @include opacity(.9);
+    }
+
+    &:visited {
+
+    }
+
+    &:disabled,
+    &.disabled
+    {
+
+    }
+}
+
+.button-mini {
+    box-shadow: none;    
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.danger {
+
+}
+
+.blue {
+    text-shadow: 0px -1px 1px #2B6DAE;
+    -webkit-box-shadow: 0px 1px 0px 0px #E6E6E6;
+    -moz-box-shadow: 0px 1px 0px 0px #e6e6e6;
+    box-shadow: 0px 1px 0px 0px #E6E6E6;
+    background-color: #3D87CF;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF3D87CF', endColorstr='#FF307AC2');
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3D87CF), color-stop(100%, #307AC2));
+    background-image: -webkit-linear-gradient(top, #3D87CF 0%, #307AC2 100%);
+    background-image: -moz-linear-gradient(top, #3d87cf 0%, #307ac2 100%);
+    background-image: -o-linear-gradient(top, #3d87cf 0%, #307ac2 100%);
+    background-image: linear-gradient(top, #3d87cf 0%, #307ac2 100%);
+    font: 13px "Helvetica Neue LT Std 55 Roman", HelveticaNeue-Roman, Helvetica Neue Roman, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFF;
+    cursor: pointer;
+    padding: 12px 13px;
+    min-width: 45px;
+    text-align: center !important;
+    padding: 12px 13px !important;
+}
+
+.dark-grey {
+
+}
+
+
+// .primary - For the main form action, use whenever creating something.
+// .primary:hover - Hover state fo primary buttons.
+// .primary:active - A brief moment of polish when the button is pressed.
+// .primary:disabled - Even primary buttons have a down state.
+// .primary.disabled - Same as the disabled pseudo-class.
+// .danger - For potentially bad or destructive actions.
+// .danger:hover - Hover state for danger buttons.
+// .danger:active - Depressed danger button.
+// .danger:disabled - Disabled danger button.
+// .danger.disabled - Same as the disabled pseudo-class.
+// .blue - Actions related to merges.
+// .blue:hover - Hover state for merge buttons.
+// .blue:active - Depressed blue button.
+// .blue:disabled - Disabled blue button.
+// .blue.disabled - Same as the disabled pseudo-class.
+// .dark-grey - Alternate button.
+// .dark-grey:hover - Hover state for alternate buttons.
+// .dark-grey:active - Depressed alternate button.
+// .dark-grey:disabled - Disabled alternate button.
+// .dark-grey.disabled - Same as the disabled pseudo-class.
+.cancel {
+
+}
